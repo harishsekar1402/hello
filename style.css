@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Outfit&family=Poppins&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: auto;
+}
+#Home{
+    background-image: url(assets/bg.jpg);
+}
+#title{
+    padding-top: 200px;
+    font-size: 50px;
+    font-family: 'Tilt Prism', cursive;
+    color: rgb(215, 253, 0);
+    
+    text-align: center;
+}
+.container{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(146, 174, 221);
+    margin-left: 200px;
+    margin-top: 100px;
+    border: 2px black solid;
+    box-shadow: 1px 1px 5px 3px;
+}
+.btn{
+    font-size: large;
+    font-family:  'Outfit', sans-serif;
+    padding-top: 8px;
+    text-align: center;
+}
+.btns{
+    margin-left: 125px;
+    display: flex;
+    flex-direction: row;
+}
+#Para{
+    background-image: cover;
+    background-image: url(assets/bg1.jpg);
+}
+.pas{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: 'Tilt Prism', cursive;
+}
